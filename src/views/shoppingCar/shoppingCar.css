@@ -1,0 +1,69 @@
+.shoppingCar{
+    width: 100%;
+    height: 100%;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background: #FAFAFB;
+    line-height: 1rem;
+}
+.header p{
+    font-size: .36rem;
+}
+.header span{
+    margin-left: 1.5rem;
+}
+.section{
+    flex: 1;
+}
+.acc{
+    width: 100%;
+    height: 1rem;
+    background: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+     position: absolute;
+    bottom: .9rem; 
+}
+.item-checke{
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: .2rem;
+    top: .3rem;
+    line-height: .4rem;
+    text-align: center;
+}
+.item-checke b {
+    display: inline-block;
+    background-color: skyblue;
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    margin-bottom: .04rem;
+}
+.all{
+    margin-left: .8rem;
+}
+.j{
+    display: inline-block;
+    width: 2rem;
+    background: #fc4141;
+    text-align: center;
+    line-height: .9rem;
+    color: #ffffff;
+    font-size: 0.32rem;
+    margin-left: 0.26rem
+}
+.b{
+    color: #FC4141
+}

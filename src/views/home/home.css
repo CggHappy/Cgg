@@ -1,0 +1,221 @@
+ .home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home .header{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.home .header .left{
+    width: 1.2rem;
+    margin-left: .1rem
+}
+.home .header .left img{
+    height: .6rem;
+    margin-top: .15rem;
+    text-align: center;
+}
+.home .header form{
+    flex: 1;
+    height: .7rem;
+    margin-top: .1rem;
+    margin-left: .35rem;
+    margin-right: .15rem;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius:10px; 
+    line-height: .7rem;
+}
+.header form span{
+    margin-left: .2rem;
+}
+.header form input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #eee;
+    line-height: .7rem;
+    font-size: .25rem;
+}
+.right{
+    width: 1.5rem;
+    text-align: center;
+    margin-right: .1rem;
+    color:#fc4141;
+}
+.right p{
+    line-height: .4rem;
+}
+.section{
+    flex:1;
+    flex-shrink: 1; 
+    width: 100%;
+    overflow: auto;
+    background: #eeeeee;
+}
+.wrapper-img{
+    width: 100%;
+    height: 3.6rem;
+}
+.wrapper-img img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination{
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+.home-nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+}
+.home-nav li{
+    width: 25%;
+    text-align: center;
+    margin-top: .15rem;
+}
+.home-nav li img,.home-nav li span{
+    display: block;
+}
+.home-nav li img{
+    width: .9rem;
+    height: .9rem;
+    margin: 0 auto;
+    margin-top:.1rem; 
+}
+.home-nav li span{
+    margin-top:.1rem; 
+}
+.mall-dynamic{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    margin-top: .1rem;
+    background: white;
+}
+.mall-dynamic p{
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    color:orange;
+}
+.dynamic-content{
+    flex:1;
+    height: .9rem;
+    border: 1px solid #ccc;
+    margin-left:.1rem; 
+    border-radius:.1rem;
+    margin-right:.2rem;
+    margin-top: .05rem;  
+}
+.preferential{
+    display: flex;
+    padding:0.15rem 0; 
+    background: white;
+    margin-top: .1rem;
+}
+.preferential span{
+    width: 87%;
+    color:orange;
+    padding-left: .2rem;
+}
+.preferential span img{
+    width: 0.4rem;
+    vertical-align: middle;
+}
+.preferential small{
+    margin-left:.1rem; 
+}
+.preferential p{
+    font-size: 0.22rem;
+}
+.preferential p img{
+    width: .1rem;
+    margin-left:.1rem; 
+    font-size: .2rem;
+    vertical-align: middle;
+}
+.special {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 3px solid #eee;
+    background: white;
+}
+.special img{
+    width: 100%;
+    height: 100%;
+}
+.special-left{
+    width: 50%;
+}
+.special-right{
+    width: 50%;
+}
+.special-right .special-right-top{
+    border: 1px solid #eee;
+}
+.special-right .special-right-bottom{
+    border: 1px solid #eee;
+}
+.hometown{
+    width: 100%;
+    height: 0.9rem;
+    border-top:2px solid #eee;
+    border-bottom:2px solid #eee;  
+    position: relative;
+    background: white;
+}
+.hometown .img1{
+    position: absolute;
+    left:20%;
+    top: 0.45rem;
+}
+.hometown .img2{
+    position: absolute;
+    left:62%;
+    top: 0.45rem;
+}
+.hometown label{
+    position: absolute;
+    left:35%;
+    top:.15rem;
+}
+.hometown label img{
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: middle;
+}
+.hometown a{
+    position: absolute;
+    right: .4rem;
+    margin-top:.2rem; 
+}
+.hometown img{
+    width: .1.5rem;
+    vertical-align: middle;
+}
+.hometown p{
+    font-size: 0.22rem;
+}
+.hometown p img{
+    width: .1rem;
+    margin-left:.1rem; 
+    font-size: .2rem;
+    vertical-align: middle;
+}
+.goods{
+    width: 100%;
+    height: 4rem;
+    background: white;
+}
